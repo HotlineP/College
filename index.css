@@ -1,0 +1,61 @@
+body {
+    font: 14px "Century Gothic", Futura, sans-serif;
+    margin: 0%;
+    background-color: rgb(116, 44, 44);
+}
+
+:root {
+    --top-gradient:rgba(0, 0, 255, 1);
+    --bottom-gradient:rgba(0, 0, 255, 0.5);
+}
+
+.bg-blue {
+    background-color:var(--top-gradient);
+}
+
+.navigation-menu {
+    position:relative;
+
+    top:0;
+
+    height:100vh;
+    width:5vw;
+
+    background: linear-gradient(0deg, rgb(2,0,36) 0%, var(--bottom-gradient) 0%, var(--top-gradient) 100%);
+}
+
+.menu {
+    position:relative;
+
+    top:-100vh;
+    bottom: 0;
+    left: 5vw;
+
+    /*
+    border-style:solid;
+    border-color: black;
+    border-width: 0.1vw;
+    border-spacing: 0;
+    */
+
+    border-bottom: 0;
+
+    background-color: rgb(39, 39, 39);
+    height: 100vh;
+    width: 15vw;
+}
+
+.core {
+    position: relative;
+
+    top: -200vh;
+    bottom: 0;
+    left: 20vw;
+/*
+    margin-left: 20vw;
+*/
+    width: 80vw;
+    height: 100vh;
+
+    background-color: rgb(0, 0, 0);
+}
